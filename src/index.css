@@ -1,0 +1,48 @@
+@import "tailwindcss";
+ body {
+        background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+        min-height: 100vh;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .post-card {
+        transition: all 0.3s ease;
+        transform-origin: center;
+      }
+      .post-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+      }
+      .comment-card {
+        animation: fadeIn 0.5s ease-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .post-image {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+      }
+      .gradient-bg {
+        background: linear-gradient(90deg, #3b82f6 0%, #1e40af 100%);
+      }
+      .sidebar {
+        height: calc(100vh - 5rem);
+      }
+      .content-area {
+        height: calc(100vh - 5rem);
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+      .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
