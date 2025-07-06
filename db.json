@@ -1,0 +1,226 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with React",
+      "image": "1.jpg",
+      "description": "Learn the fundamentals of React and start building modern web applications",
+      "date": "2024-01-15",
+      "author": "John Doe"
+    },
+    {
+      "id": 2,
+      "title": "Python for Data Science",
+      "image": "2.jpg",
+      "description": "Essential Python libraries and techniques for data analysis",
+      "date": "2024-02-01",
+      "author": "Jane Smith"
+    },
+    {
+      "id": 3,
+      "title": "Cloud Computing Basics",
+      "image": "3.jpg",
+      "description": "Understanding IaaS, PaaS, and SaaS models in cloud computing",
+      "date": "2024-02-10",
+      "author": "Mike Johnson"
+    },
+    {
+      "id": 4,
+      "title": "Web Security Best Practices",
+      "image": "4.jpg",
+      "description": "Protect your web applications from common vulnerabilities",
+      "date": "2024-02-20",
+      "author": "Sarah Wilson"
+    },
+    {
+      "id": 5,
+      "title": "Mobile App Development Trends",
+      "image": "5.png",
+      "description": "Top trends shaping mobile app development in 2024",
+      "date": "2024-03-05",
+      "author": "David Brown"
+    },
+    {
+      "id": 6,
+      "title": "Machine Learning Fundamentals",
+      "image": "6.png",
+      "description": "Introduction to supervised and unsupervised learning",
+      "date": "2024-03-12",
+      "author": "Emily Davis"
+    },
+    {
+      "id": 7,
+      "title": "UI/UX Design Principles",
+      "image": "7.jpg",
+      "description": "Creating user-centered designs for better experiences",
+      "date": "2024-03-18",
+      "author": "Chris Taylor"
+    },
+    {
+      "id": 8,
+      "title": "DevOps Essentials",
+      "image": "8.jpg",
+      "description": "Implementing CI/CD pipelines for efficient development",
+      "date": "2024-03-22",
+      "author": "Laura Wilson"
+    },
+    {
+      "id": 9,
+      "title": "Blockchain Technology Explained",
+      "image": "9.jpg",
+      "description": "Understanding decentralized systems and smart contracts",
+      "date": "2024-04-01",
+      "author": "Michael Chen"
+    },
+    {
+      "id": 10,
+      "title": "Responsive Web Design",
+      "image": "10.jpg",
+      "description": "Creating websites that work on all devices",
+      "date": "2024-04-10",
+      "author": "Sophia Martinez"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "author": "Alice Smith",
+      "comment": "Great introduction to React!",
+      "date": "2024-01-16"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "author": "Bob Wilson",
+      "comment": "When will you cover React Hooks?",
+      "date": "2024-01-17"
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "author": "DataPro",
+      "comment": "Pandas section was particularly helpful",
+      "date": "2024-02-03"
+    },
+    {
+      "id": 4,
+      "postId": 3,
+      "author": "CloudGuy",
+      "comment": "Missing serverless coverage but otherwise good",
+      "date": "2024-02-12"
+    },
+    {
+      "id": 5,
+      "postId": 4,
+      "author": "SecurityExpert",
+      "comment": "Don't forget about regular security audits!",
+      "date": "2024-02-22"
+    },
+    {
+      "id": 6,
+      "postId": 5,
+      "author": "MobileDev",
+      "comment": "What about cross-platform frameworks?",
+      "date": "2024-03-07"
+    },
+    {
+      "id": 7,
+      "postId": 6,
+      "author": "MLBeginner",
+      "comment": "Clear explanation of basic concepts",
+      "date": "2024-03-14"
+    },
+    {
+      "id": 8,
+      "postId": 7,
+      "author": "Designer123",
+      "comment": "More examples would be helpful",
+      "date": "2024-03-20"
+    },
+    {
+      "id": 9,
+      "postId": 8,
+      "author": "DevOpsPro",
+      "comment": "Good overview of CI/CD pipelines",
+      "date": "2024-03-24"
+    },
+    {
+      "id": 10,
+      "postId": 9,
+      "author": "CryptoFan",
+      "comment": "When will you cover DAOs?",
+      "date": "2024-04-03"
+    },
+    {
+      "id": 11,
+      "postId": 10,
+      "author": "WebDevNewbie",
+      "comment": "Media queries section saved my project!",
+      "date": "2024-04-12"
+    },
+    {
+      "id": 12,
+      "postId": 2,
+      "author": "PythonLover",
+      "comment": "More NumPy examples please",
+      "date": "2024-02-05"
+    },
+    {
+      "id": 13,
+      "postId": 3,
+      "author": "CloudNewbie",
+      "comment": "AWS vs Azure comparison next?",
+      "date": "2024-02-15"
+    },
+    {
+      "id": 14,
+      "postId": 4,
+      "author": "FrontendDev",
+      "comment": "XSS prevention tips were useful",
+      "date": "2024-02-25"
+    },
+    {
+      "id": 15,
+      "postId": 5,
+      "author": "iOSDev",
+      "comment": "What about SwiftUI updates?",
+      "date": "2024-03-09"
+    },
+    {
+      "id": 16,
+      "postId": 6,
+      "author": "DataScientist",
+      "comment": "Include more real-world ML examples",
+      "date": "2024-03-16"
+    },
+    {
+      "id": 17,
+      "postId": 7,
+      "author": "UXDesigner",
+      "comment": "Accessibility section needs expansion",
+      "date": "2024-03-21"
+    },
+    {
+      "id": 18,
+      "postId": 8,
+      "author": "SysAdmin",
+      "comment": "Include monitoring tools in next post",
+      "date": "2024-03-26"
+    },
+    {
+      "id": 19,
+      "postId": 9,
+      "author": "BlockchainDev",
+      "comment": "Smart contract examples were helpful",
+      "date": "2024-04-05"
+    },
+    {
+      "id": 20,
+      "postId": 10,
+      "author": "CSSMaster",
+      "comment": "Great coverage of flexbox and grid",
+      "date": "2024-04-15"
+    }
+  ]
+}
