@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import { AuthContext } from "../Context/AuthContext";
 import useFormFields from "../Hooks/useFormFields";
+import Notify from "../Utils/Notify";
 
 export default function Login() {
   const [fields, handleChange] = useFormFields({ username: "", password: "" });
@@ -19,11 +20,12 @@ export default function Login() {
       });
       const data = await res.json();
       handleToken(data.token);
+      Notify('success','Wellcome to My Blog')
       if (!data?.token) {
         throw Error("The username or password is incorrect!");
       }
     } catch (error) {
-      alert(error.message);
+      Notify('error','Try again')
     }
     setLoading(false);
   };
