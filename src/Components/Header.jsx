@@ -1,10 +1,11 @@
-import React from 'react'
-import Login from './Login'
+import React, { useContext } from 'react'
+import { AuthContext } from '../Context/AuthContext'
 
-export default function Header({handleLogout}) {
+export default function Header() {
+  const {handleToken}=useContext(AuthContext)
   const question=()=>{
     alert('You have left the blog')
-    handleLogout()
+    handleToken(null)
   }
   return (
     <header className="gradient-bg shadow-lg sticky top-0 z-50">
@@ -14,11 +15,11 @@ export default function Header({handleLogout}) {
             <h1 className="text-2xl font-bold">Tech Blog Hub</h1>
           </div>
           <div className="flex items-center space-x-4">
-            <button onClick={question} className="cursor-pointer bg-accent hover:bg-blue-500 px-4 py-2 rounded-full font-semibold transition">
-              <i className="fas fa-user mr-2"></i>Log out
+            <button onClick={question} className="cursor-pointer bg-red-500  hover:bg-red-700 px-4 py-2 rounded-full font-semibold transition">
+              Logout
             </button>
             <button className="cursor-pointer bg-secondary hover:bg-blue-800 px-4 py-2 rounded-full font-semibold transition">
-              <i className="fas fa-bell mr-2"></i>Subscribe
+              Subscribe
             </button>
           </div>
         </div>

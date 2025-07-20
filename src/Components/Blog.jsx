@@ -3,7 +3,7 @@ import Header from "./Header";
 import Aside from "./Aside";
 import Main from "./Main";
 import Loading from "./Loading"
-export default function Blog({handleLogout}) {
+export default function Blog({}) {
   const [posts, setPosts] = useState();
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -25,7 +25,7 @@ export default function Blog({handleLogout}) {
 
   return (
     <div className="text-gray-200">
-      <Header handleLogout={handleLogout}/>
+      <Header/>
       <div className="container mx-auto px-4 flex">
         <Aside handlePost={handlePost} posts={posts}/>
         <Main post={posts[currentIndex]}/>
